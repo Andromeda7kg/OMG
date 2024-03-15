@@ -1,0 +1,49 @@
+/* body {
+    background-color: rgb(83, 131, 194);
+}
+
+.flex-box {
+    display: inline-flex;
+    flex-direction: column;
+    align-content: space-around;
+
+калганын тушунбодум :(
+
+
+}
+
+
+.flex-box1 {
+    display: inline-flex;
+    background-color: rgb(243, 255, 192);
+}
+
+.flex {
+    background-color: darkblue;
+    padding: 10px;
+    color: white;
+
+}
+
+.flex1 {
+    border: 5px solid rgb(243, 203, 70);
+    padding: 120px;
+}
+
+.flex3 {
+    align-self:flex-end;
+} */
+
+.flex-box {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.flex {
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+}
